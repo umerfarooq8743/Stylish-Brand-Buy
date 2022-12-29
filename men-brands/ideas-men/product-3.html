@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylist Brands & Buy</title>
+    <link rel="stylesheet" href="../../style.css">
+    <!-- --BOOTSTRAP CSS LINK-- -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- --JQUERY LINK-- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="../../owl_carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="../../owl_carousel/owl.carousel.css">
+
+</head>
+
+<body id="index">
+
+
+  <!-- --NAVBAR-- -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dull3 z-index">
+    <div class="container d-flex">
+        <a class="navbar-brand text-bright" href="../../index.html">Stylist Brands & Buy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="../../about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Women
+                    </a>
+
+                    <ul id="d-down" class="dropdown-menu bg-dull4" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-white" href="../../women.html">All Women Brands</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li> <a href="#d-down" class="dropdown-item disabled">Top Women Brands:</li></a>
+                        <li><a class="dropdown-item text-white" href="../../women-brands/alkaram.html">Alkaram</a></li>
+                        <li><a class="dropdown-item text-white" href="../../women-brands/sana-safinaz.html">Sana Safinaz</a></li>
+                    </ul>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Men
+                    </a>
+                    <ul id="d-down" class="dropdown-menu bg-dull4" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-white" href="../../men.html">All Men Brands</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li> <a href="#d-down" class="dropdown-item disabled">Top Men Brands:</li></a>
+                        <li><a class="dropdown-item text-white" href="../../men-brands/leisure.html">Leisure Club</a></li>
+                        <li><a class="dropdown-item text-white" href="../../men-brands/chester.html">Chester Bernard</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" aria-current="page" href="../../cart.html">Cart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="../../login.html">Login</a>
+                </li>
+        </div>
+    </div>
+</nav>
+
+
+<!-- --NAVBAR-- -->
+
+
+
+    <div class="container-fluid product d-lg-flex">
+        <!-- <div class="w-100 w-sm-100 w-md-100 w-lg-100 product-img">
+            <img class="mt-5 d-show" src="../../images/men-brands/chester/p1.jpg" alt="">
+        </div> -->
+        <div class="container mt-5 forimg text-center">
+            <div id="images">
+                <img id="image1" class src="../../images/men-brands/ideas/p3.jpg" />
+                <img id="image2" class src="../../images/men-brands/ideas/p3-2.jpg" />
+            </div>
+            <div id="slider">
+                <a href="#image1"><img width="20%" src="../../images/men-brands/ideas/p3.jpg" alt=""></a>
+                <a href="#image2"><img width="20%" src="../../images/men-brands/ideas/p3-2.jpg" alt=""></a>
+            </div>
+        </div>
+
+
+
+        <div class="container ml-mine mt-5 text-center text-lg-start">
+            <h1 class="mt-5">Basic Cotton Black Kurta</h1><br>
+            <h2>Price PKR: 3,000/- <strike>4,500/-</strike></h2>
+            <hr>
+            <p>This product was fully hand made and is considered First Class gonna look dope on you, Try it now! </p>
+            <p>Sizes:</p>
+            <button id="sizes" class="bg-bright3" class="btn m-5 mt-5 btn-custom"> S </button>
+            <button id="sizes" class="bg-bright3" class="btn m-5 mt-5 btn-custom"> M </button>
+            <button id="sizes" class="bg-bright3" class="btn m-5 mt-5 btn-custom"> L </button>
+            <button id="sizes" class="bg-bright3" class="btn m-5 mt-5 btn-custom"> XL </button>
+            <br><br>
+            <h5>Buy now! and get upto 30% off!!</h5>
+            <button type="button" class="btn  mt-5 btn-custom">Buy Now!</button>
+            <button type="button" class="btn  mt-5 btn-custom">Add to Cart</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="diagonal-box">
+        <div class="content p-5">
+            <img class="mt-5" src="../../images/men-brands/logo/ideas.png" alt="">
+            <h3 class="mt-5">Ideas</h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- ------------SLIDERRRRRRR--------------- -->
+
+
+
+   <div class="container">
+    <div class="row my-5">
+        <h1 class="text-center mt-5">Featured Products</h1>
+        <p class="fw-light w-75 mx-auto text-center">These are the BEST SELLING products of Our website! GRAB YOUR's
+            NOW! ,Products are linked directly through Chester Bernard's
+            original website, Your order would be placed accordingly.</p>
+    </div>
+
+    <div class="row g-4 my-5 mx-auto owl-carousel owl-theme">
+        <div class="col product-item mx-auto">
+            <div class="product-img">
+                <img src="../../images/men-brands/ideas/p1.jpg" alt="" class="img-fluid d-block mx-auto">
+                <span class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </span>
+                <div class="row btns w-100 mx-auto text-center">
+                    <a type="button" class="col-6 py-2">
+                        <i class="fa fa-cart-plus"></i> Add to Cart
+                    </a>
+                    <a href="product-1.html" type="button" class="col-6 py-2">
+                        <i class="fa fa-binoculars"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-info p-3">
+                <span class="product-type"> Formal</span>
+                <a href="product-1.html" class="d-block text-dark text-decoration-none py-2 product-name">Chocolate Brown Plane
+                    Shirt</a>
+                <span class="product-price">Rs.4,000 <strike style="color: brown;">Rs.4,500</strike></span>
+                <div class="rating d-flex mt-1">
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>(25 reviews)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col product-item mx-auto">
+            <div class="product-img">
+                <img src="../../images/men-brands/ideas/p2.jpg" alt="" class="img-fluid d-block mx-auto">
+                <span class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </span>
+                <div class="row btns w-100 mx-auto text-center">
+                    <a type="button" class="col-6 py-2">
+                        <i class="fa fa-cart-plus"></i> Add to Cart
+                    </a>
+                    <a href="product-2 .html" type="button" class="col-6 py-2">
+                        <i class="fa fa-binoculars"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-info p-3">
+                <span class="product-type">Semi-Formal</span>
+                <a href="product-2 .html" class="d-block text-dark text-decoration-none py-2 product-name">Layered Blue Check
+                    Shirt</a>
+                <span class="product-price">Rs.4,000 <strike style="color: brown;">Rs.4,500</strike></span>
+                <div class="rating d-flex mt-1">
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>(25 reviews)</span>
+                </div>
+            </div>
+        </div>
+        <div class="col product-item mx-auto">
+            <div class="product-img">
+                <img src="../../images/men-brands/ideas/p3.jpg" alt="" class="img-fluid d-block mx-auto">
+                <span class="heart-icon">
+                    <i class="far fa-heart"></i>
+                </span>
+                <div class="row btns w-100 mx-auto text-center">
+                    <a type="button" class="col-6 py-2">
+                        <i class="fa fa-cart-plus"></i> Add to Cart
+                    </a>
+                    <a href="product-3.html" type="button" class="col-6 py-2">
+                        <i class="fa fa-binoculars"></i> View
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-info p-3">
+                <span class="product-type">Kurta</span>
+                <a href="product-3.html" class="d-block text-dark text-decoration-none py-2 product-name">Basic Cotton Black
+                    Kurta</a>
+                <span class="product-price">Rs.3,000 <strike style="color: brown;">Rs.4,500</strike></span>
+                <div class="rating d-flex mt-1">
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>
+                        <i class="fa fa-star"></i>
+                    </span>
+                    <span>(25 reviews)</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- -------footer---------- -->
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container-fluid p-0 mt-5">
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dull text-white">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-between linear-grad p-4">
+                <!-- Left -->
+                <div class="me-auto text-dull">
+                    <span class="fw-bold">Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+
+                <!-- Right -->
+                <div class="text-dull">
+                    <a target="blank" href="https://www.facebook.com/" class="text-dull footer-icons me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a target="blank" href="https://twitter.com/i/flow/login" class="text-dull footer-icons me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="blank" href="https://mail.google.com" class="text-dull footer-icons me-4">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a target="blank" href="https://www.instagram.com" class="text-dull footer-icons me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a target="blank" href="https://www.linkedin.com" class="text-dull footer-icons me-4">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a target="blank" href="https://github.com" class="text-dull footer-icons me-4">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-bright2 text-uppercase fw-bold">Stylist Brand</h6>
+                            <hr class="mb-4 bg-bright2 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px" />
+                            <p>
+                                We started this short company to help others not to surf around different websites
+                                instead just buy stuff from 1 (here)!
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-bright2 text-uppercase fw-bold">Products</h6>
+                            <hr class="mb-4 bg-bright2 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px" />
+                            <p>
+                                <a href="../../Men.html" class="text-white">Men Brands</a>
+                            </p>
+                            <p>
+                                <a href="../../women.html" class="text-white">Women Brands</a>
+                            </p>
+                            <p>
+                                <a href="../../about.html" class="text-white">About</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-bright2 text-uppercase fw-bold">Feuture products</h6>
+                            <hr class="bg-bright2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px" />
+                            <p>
+                                <a href="../../men-brands/chester.html" class="text-white">Chester</a>
+                            </p>
+                            <p>
+                                <a href="../../women-brands/alkaram.html" class="text-white">Alkaram</a>
+                            </p>
+                            <p>
+                                <a href="../../men-brands/j-men.html" class="text-white">J. Men</a>
+                            </p>
+                            <p>
+                                <a href="../../women-brands/ideas-women.html" class="text-white">Ideas Women</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class=" text-bright2 text-uppercase fw-bold">Contact</h6>
+                            <hr class="bg-bright2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Street 42, Karachi, Pakistan.</p>
+                            <p><i class="fas fa-envelope mr-3"></i>info@brandsandbuy.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 92 123 456 7890</p>
+                            <p><i class="fas fa-print mr-3"></i> + 92 098 765 4321</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2022 Copyright:
+                <a class="text-white" href="../../index.html">Stylist Brand</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+    </div>
+    <!-- End of .container -->
+
+
+
+
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl carousel -->
+    <script src="../../owl_carousel/owl.carousel.js"></script>
+    <script src="../../script.js"></script>
+    <!-- --BOOTSTRAP JS LINK-- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Gray (#606060FF) and Lime Punch (#D6ED17FF) -->
